@@ -29,7 +29,7 @@ Evolução no conhecimento da linguagem de marcação do html css e na linguagem
     # Clonar o repositório 
     $ git clone 
 
-    # Baixar o instalador do Android Studio
+   
     $ Abrir o editor de texto Vscode, Notepad ++, Sublime Text
 
     $ importar o projeto para os editores de texto
