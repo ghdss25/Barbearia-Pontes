@@ -59,7 +59,7 @@ header {
 
 .header-site{
 
-    background-image: url('../img/barbearia_pontes.jpeg');
+    background-color: black;
     background-position: center top; 
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -76,7 +76,7 @@ p{
 
 h1{
 
-    color: rgb(255, 8, 8); 
+    color: rgb(255, 0, 0); 
 }
 
 .caption{
@@ -103,6 +103,57 @@ img{
     height: 150px;
 }
 
+.cards {
+
+    justify-content: center;
+}
+
+main.cards {
+
+    display: flex;
+    padding: 32px;
+    margin-top: 20px;
+ }
+ 
+ main.cards section.card{
+ 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     background: rgb(13, 47, 240);
+     padding: 1rem 1.5rem;
+     border-radius: 8px;
+     max-height: 468px;
+     margin-left: 32px;
+     position: inherit;
+ 
+ }
+ 
+ main.cards section.card:first-child {
+ 
+     margin-left: 0;
+ }
+ 
+ main.cards section.card h3 {
+ 
+     font-size: 100%;
+     margin: 16px 0;
+ }
+ 
+ main.cards section.card.presentation{
+ 
+     box-shadow: 20px 20px 50px -30px rgb(240, 240, 240);
+ 
+ }
+ 
+ .card  a{
+ 
+     font-size:60px;
+     color:lightblue;
+     box-sizing: border-box;
+ }
+  
 @media (max-width: 600px) {
 
     #menu{
