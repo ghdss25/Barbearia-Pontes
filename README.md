@@ -27,7 +27,7 @@ Evolução no conhecimento da linguagem de marcação do html css e na linguagem
 ```bash 
 
     # Clonar o repositório 
-    $ git clone 
+    $ git clone https://github.com/ghdss25/Barbearia-Pontes.git
 
    
     $ Abrir o editor de texto Vscode, Notepad ++, Sublime Text
